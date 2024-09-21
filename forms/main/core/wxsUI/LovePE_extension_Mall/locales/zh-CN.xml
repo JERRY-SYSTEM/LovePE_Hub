@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale>
+    <Font shared="true" id="14" size="14" name="HarmonyOS Sans SC Black" default="true" />
+    <Font shared="true" id="18" size="18" name="HarmonyOS Sans SC Black" />
+    <Font shared="true" id="24" size="24" name="HarmonyOS Sans SC Black" />
+    <Font shared="true" id="sym" size="12" name="Segoe MDL2 Assets" />
+    <Font shared="true" id="sym16" size="16" name="Segoe MDL2 Assets" />
+</Locale>

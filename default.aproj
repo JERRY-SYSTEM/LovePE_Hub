@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project ver="10" name="LovePE_Hub" libEmbed="true" icon="E:\Program Files\aardio\hubico.ico" ui="win" output="LovePE_Hub.exe" CompanyName="Lovepcos x LovePE" FileDescription="LovePE_Hub" LegalCopyright="Copyright (C) Lovepcos 2023" ProductName="LovePE_Hub" InternalName="LovePE_Hub" FileVersion="20.23.01.26" ProductVersion="20.23.01.26" publishDir="/dist/" dstrip="false" local="false" ignored="false">
+	<file name="main" path="main.aardio"/>
+	<folder name="窗体" path="forms" comment="" embed="true" local="false" ignored="false">
+		<folder name="login" path="forms\login" comment="forms\login" local="false" embed="false" ignored="false"/>
+		<folder name="main" path="forms\main" comment="forms\main" local="false" embed="false" ignored="false">
+			<file name="extension.aardio" path="forms\main\extension.aardio" comment="forms\main\extension.aardio"/>
+			<file name="home.aardio" path="forms\main\home.aardio" comment="forms\main\home.aardio"/>
+			<file name="setting.aardio" path="forms\main\setting.aardio" comment="forms\main\setting.aardio"/>
+			<file name="vhd.aardio" path="forms\main\vhd.aardio" comment="forms\main\vhd.aardio"/>
+			<file name="write.aardio" path="forms\main\write.aardio" comment="forms\main\write.aardio"/>
+			<folder name="core" path="forms\main\core" comment="forms\main\core">
+				<file name="7z.dll" path="forms\main\core\7z.dll" comment="forms\main\core\7z.dll"/>
+				<file name="7z.exe" path="forms\main\core\7z.exe" comment="forms\main\core\7z.exe"/>
+				<file name="aria2c.exe" path="forms\main\core\aria2c.exe" comment="forms\main\core\aria2c.exe"/>
+				<file name="bootsect.exe" path="forms\main\core\bootsect.exe" comment="forms\main\core\bootsect.exe"/>
+				<file name="core32.exe" path="forms\main\core\core32.exe" comment="forms\main\core\core32.exe"/>
+				<file name="core64.exe" path="forms\main\core\core64.exe" comment="forms\main\core\core64.exe"/>
+				<file name="extensionmaker.vbs" path="forms\main\core\extensionmaker.vbs" comment="forms\main\core\extensionmaker.vbs"/>
+				<file name="hd32.vbs" path="forms\main\core\hd32.vbs" comment="forms\main\core\hd32.vbs"/>
+				<file name="libwim-15.dll" path="forms\main\core\libwim-15.dll" comment="forms\main\core\libwim-15.dll"/>
+				<file name="setting1.vbs" path="forms\main\core\setting1.vbs" comment="forms\main\core\setting1.vbs"/>
+				<file name="vhdmaker.vbs" path="forms\main\core\vhdmaker.vbs" comment="forms\main\core\vhdmaker.vbs"/>
+				<file name="wimlib-imagex.exe" path="forms\main\core\wimlib-imagex.exe" comment="forms\main\core\wimlib-imagex.exe"/>
+				<file name="writelean.vbs" path="forms\main\core\writelean.vbs" comment="forms\main\core\writelean.vbs"/>
+				<file name="writeusb.vbs" path="forms\main\core\writeusb.vbs" comment="forms\main\core\writeusb.vbs"/>
+				<file name="ZnexMall.exe" path="forms\main\core\ZnexMall.exe" comment="forms\main\core\ZnexMall.exe"/>
+				<folder name="PartAssist" path="forms\main\core\PartAssist" comment="forms\main\core\PartAssist">
+					<file name="cfg.ini" path="forms\main\core\PartAssist\cfg.ini" comment="forms\main\core\PartAssist\cfg.ini"/>
+					<file name="LoadDrv_Win32.exe" path="forms\main\core\PartAssist\LoadDrv_Win32.exe" comment="forms\main\core\PartAssist\LoadDrv_Win32.exe"/>
+					<file name="LoadDrv_x64.exe" path="forms\main\core\PartAssist\LoadDrv_x64.exe" comment="forms\main\core\PartAssist\LoadDrv_x64.exe"/>
+					<file name="mfc80.dll" path="forms\main\core\PartAssist\mfc80.dll" comment="forms\main\core\PartAssist\mfc80.dll"/>
+					<file name="mfc80u.dll" path="forms\main\core\PartAssist\mfc80u.dll" comment="forms\main\core\PartAssist\mfc80u.dll"/>
+					<file name="mfcm80.dll" path="forms\main\core\PartAssist\mfcm80.dll" comment="forms\main\core\PartAssist\mfcm80.dll"/>
+					<file name="mfcm80u.dll" path="forms\main\core\PartAssist\mfcm80u.dll" comment="forms\main\core\PartAssist\mfcm80u.dll"/>
+					<file name="Microsoft.VC80.CRT.manifest" path="forms\main\core\PartAssist\Microsoft.VC80.CRT.manifest" comment="forms\main\core\PartAssist\Microsoft.VC80.CRT.manifest"/>
+					<file name="Microsoft.VC80.MFC.manifest" path="forms\main\core\PartAssist\Microsoft.VC80.MFC.manifest" comment="forms\main\core\PartAssist\Microsoft.VC80.MFC.manifest"/>
+					<file name="msvcm80.dll" path="forms\main\core\PartAssist\msvcm80.dll" comment="forms\main\core\PartAssist\msvcm80.dll"/>
+					<file name="msvcp80.dll" path="forms\main\core\PartAssist\msvcp80.dll" comment="forms\main\core\PartAssist\msvcp80.dll"/>
+					<file name="msvcr80.dll" path="forms\main\core\PartAssist\msvcr80.dll" comment="forms\main\core\PartAssist\msvcr80.dll"/>
+					<file name="PartAssist.exe" path="forms\main\core\PartAssist\PartAssist.exe" comment="forms\main\core\PartAssist\PartAssist.exe"/>
+					<file name="ScanPartition.dll" path="forms\main\core\PartAssist\ScanPartition.dll" comment="forms\main\core\PartAssist\ScanPartition.dll"/>
+					<file name="SetupGreen32.exe" path="forms\main\core\PartAssist\SetupGreen32.exe" comment="forms\main\core\PartAssist\SetupGreen32.exe"/>
+					<file name="SetupGreen64.exe" path="forms\main\core\PartAssist\SetupGreen64.exe" comment="forms\main\core\PartAssist\SetupGreen64.exe"/>
+					<folder name="lang" path="forms\main\core\PartAssist\lang" comment="forms\main\core\PartAssist\lang">
+						<file name="cn.txt" path="forms\main\core\PartAssist\lang\cn.txt" comment="forms\main\core\PartAssist\lang\cn.txt"/>
+					</folder>
+					<folder name="native" path="forms\main\core\PartAssist\native" comment="forms\main\core\PartAssist\native">
+						<folder name="wlh" path="forms\main\core\PartAssist\native\wlh" comment="forms\main\core\PartAssist\native\wlh">
+							<folder name="amd64" path="forms\main\core\PartAssist\native\wlh\amd64" comment="forms\main\core\PartAssist\native\wlh\amd64">
+								<folder name="fre" path="forms\main\core\PartAssist\native\wlh\amd64\fre" comment="forms\main\core\PartAssist\native\wlh\amd64\fre">
+									<file name="ampa.sys" path="forms\main\core\PartAssist\native\wlh\amd64\fre\ampa.sys" comment="forms\main\core\PartAssist\native\wlh\amd64\fre\ampa.sys"/>
+								</folder>
+							</folder>
+							<folder name="x86" path="forms\main\core\PartAssist\native\wlh\x86" comment="forms\main\core\PartAssist\native\wlh\x86">
+								<folder name="fre" path="forms\main\core\PartAssist\native\wlh\x86\fre" comment="forms\main\core\PartAssist\native\wlh\x86\fre">
+									<file name="ampa.sys" path="forms\main\core\PartAssist\native\wlh\x86\fre\ampa.sys" comment="forms\main\core\PartAssist\native\wlh\x86\fre\ampa.sys"/>
+								</folder>
+							</folder>
+						</folder>
+					</folder>
+				</folder>
+				<folder name="UltraISO" path="forms\main\core\UltraISO" comment="forms\main\core\UltraISO">
+					<file name="uikey.ini" path="forms\main\core\UltraISO\uikey.ini" comment="forms\main\core\UltraISO\uikey.ini"/>
+					<file name="UltraISO.exe" path="forms\main\core\UltraISO\UltraISO.exe" comment="forms\main\core\UltraISO\UltraISO.exe"/>
+					<file name="ultraiso.ini" path="forms\main\core\UltraISO\ultraiso.ini" comment="forms\main\core\UltraISO\ultraiso.ini"/>
+					<folder name="drivers" path="forms\main\core\UltraISO\drivers" comment="forms\main\core\UltraISO\drivers">
+						<file name="bootpart.exe" path="forms\main\core\UltraISO\drivers\bootpart.exe" comment="forms\main\core\UltraISO\drivers\bootpart.exe"/>
+						<file name="bootpart.sys" path="forms\main\core\UltraISO\drivers\bootpart.sys" comment="forms\main\core\UltraISO\drivers\bootpart.sys"/>
+						<file name="bootpt64.sys" path="forms\main\core\UltraISO\drivers\bootpt64.sys" comment="forms\main\core\UltraISO\drivers\bootpt64.sys"/>
+						<file name="IsoCmd.exe" path="forms\main\core\UltraISO\drivers\IsoCmd.exe" comment="forms\main\core\UltraISO\drivers\IsoCmd.exe"/>
+						<file name="ISODrive.sys" path="forms\main\core\UltraISO\drivers\ISODrive.sys" comment="forms\main\core\UltraISO\drivers\ISODrive.sys"/>
+						<file name="ISODrv64.sys" path="forms\main\core\UltraISO\drivers\ISODrv64.sys" comment="forms\main\core\UltraISO\drivers\ISODrv64.sys"/>
+					</folder>
+					<folder name="lang" path="forms\main\core\UltraISO\lang" comment="forms\main\core\UltraISO\lang">
+						<file name="lang_cn.dll" path="forms\main\core\UltraISO\lang\lang_cn.dll" comment="forms\main\core\UltraISO\lang\lang_cn.dll"/>
+					</folder>
+				</folder>
+				<folder name="wxsUI" path="forms\main\core\wxsUI" comment="forms\main\core\wxsUI">
+					<folder name="LovePE_extension_Mall" path="forms\main\core\wxsUI\LovePE_extension_Mall" comment="forms\main\core\wxsUI\LovePE_extension_Mall">
+						<file name="dl.lua" path="forms\main\core\wxsUI\LovePE_extension_Mall\dl.lua" comment="forms\main\core\wxsUI\LovePE_extension_Mall\dl.lua"/>
+						<file name="icon.ico" path="forms\main\core\wxsUI\LovePE_extension_Mall\icon.ico" comment="forms\main\core\wxsUI\LovePE_extension_Mall\icon.ico"/>
+						<file name="main.jcfg" path="forms\main\core\wxsUI\LovePE_extension_Mall\main.jcfg" comment="forms\main\core\wxsUI\LovePE_extension_Mall\main.jcfg"/>
+						<file name="main.lua" path="forms\main\core\wxsUI\LovePE_extension_Mall\main.lua" comment="forms\main\core\wxsUI\LovePE_extension_Mall\main.lua"/>
+						<file name="main.xml" path="forms\main\core\wxsUI\LovePE_extension_Mall\main.xml" comment="forms\main\core\wxsUI\LovePE_extension_Mall\main.xml"/>
+						<file name="nav.lua" path="forms\main\core\wxsUI\LovePE_extension_Mall\nav.lua" comment="forms\main\core\wxsUI\LovePE_extension_Mall\nav.lua"/>
+						<file name="ntboot.lua" path="forms\main\core\wxsUI\LovePE_extension_Mall\ntboot.lua" comment="forms\main\core\wxsUI\LovePE_extension_Mall\ntboot.lua"/>
+						<file name="openfile.lua" path="forms\main\core\wxsUI\LovePE_extension_Mall\openfile.lua" comment="forms\main\core\wxsUI\LovePE_extension_Mall\openfile.lua"/>
+						<file name="page.lua" path="forms\main\core\wxsUI\LovePE_extension_Mall\page.lua" comment="forms\main\core\wxsUI\LovePE_extension_Mall\page.lua"/>
+						<file name="update.bat" path="forms\main\core\wxsUI\LovePE_extension_Mall\update.bat" comment="forms\main\core\wxsUI\LovePE_extension_Mall\update.bat"/>
+						<file name="utils.lua" path="forms\main\core\wxsUI\LovePE_extension_Mall\utils.lua" comment="forms\main\core\wxsUI\LovePE_extension_Mall\utils.lua"/>
+						<file name="_navData.lua" path="forms\main\core\wxsUI\LovePE_extension_Mall\_navData.lua" comment="forms\main\core\wxsUI\LovePE_extension_Mall\_navData.lua"/>
+						<file name="_pageData.lua" path="forms\main\core\wxsUI\LovePE_extension_Mall\_pageData.lua" comment="forms\main\core\wxsUI\LovePE_extension_Mall\_pageData.lua"/>
+						<folder name="locales" path="forms\main\core\wxsUI\LovePE_extension_Mall\locales" comment="forms\main\core\wxsUI\LovePE_extension_Mall\locales">
+							<file name="zh-CN.xml" path="forms\main\core\wxsUI\LovePE_extension_Mall\locales\zh-CN.xml" comment="forms\main\core\wxsUI\LovePE_extension_Mall\locales\zh-CN.xml"/>
+						</folder>
+						<folder name="themes" path="forms\main\core\wxsUI\LovePE_extension_Mall\themes" comment="forms\main\core\wxsUI\LovePE_extension_Mall\themes">
+							<file name="dark.xml" path="forms\main\core\wxsUI\LovePE_extension_Mall\themes\dark.xml" comment="forms\main\core\wxsUI\LovePE_extension_Mall\themes\dark.xml"/>
+							<file name="default.xml" path="forms\main\core\wxsUI\LovePE_extension_Mall\themes\default.xml" comment="forms\main\core\wxsUI\LovePE_extension_Mall\themes\default.xml"/>
+							<file name="left.png" path="forms\main\core\wxsUI\LovePE_extension_Mall\themes\left.png" comment="forms\main\core\wxsUI\LovePE_extension_Mall\themes\left.png"/>
+							<file name="sliderbk.png" path="forms\main\core\wxsUI\LovePE_extension_Mall\themes\sliderbk.png" comment="forms\main\core\wxsUI\LovePE_extension_Mall\themes\sliderbk.png"/>
+							<file name="sliderfr.png" path="forms\main\core\wxsUI\LovePE_extension_Mall\themes\sliderfr.png" comment="forms\main\core\wxsUI\LovePE_extension_Mall\themes\sliderfr.png"/>
+						</folder>
+						<folder name="types" path="forms\main\core\wxsUI\LovePE_extension_Mall\types" comment="forms\main\core\wxsUI\LovePE_extension_Mall\types">
+							<file name="media" path="forms\main\core\wxsUI\LovePE_extension_Mall\types\media" comment="forms\main\core\wxsUI\LovePE_extension_Mall\types\media"/>
+							<file name="work" path="forms\main\core\wxsUI\LovePE_extension_Mall\types\work" comment="forms\main\core\wxsUI\LovePE_extension_Mall\types\work"/>
+						</folder>
+					</folder>
+				</folder>
+			</folder>
+			<folder name="png" path="forms\main\png" comment="forms\main\png">
+				<file name="barClose.png" path="forms\main\png\barClose.png" comment="forms\main\png\barClose.png"/>
+				<file name="barClosehover.png" path="forms\main\png\barClosehover.png" comment="forms\main\png\barClosehover.png"/>
+				<file name="barMin.png" path="forms\main\png\barMin.png" comment="forms\main\png\barMin.png"/>
+				<file name="barMinhover.png" path="forms\main\png\barMinhover.png" comment="forms\main\png\barMinhover.png"/>
+				<file name="extension.png" path="forms\main\png\extension.png" comment="forms\main\png\extension.png"/>
+				<file name="home.png" path="forms\main\png\home.png" comment="forms\main\png\home.png"/>
+				<file name="setting.png" path="forms\main\png\setting.png" comment="forms\main\png\setting.png"/>
+				<file name="vhd.png" path="forms\main\png\vhd.png" comment="forms\main\png\vhd.png"/>
+				<file name="write.png" path="forms\main\png\write.png" comment="forms\main\png\write.png"/>
+			</folder>
+		</folder>
+	</folder>
+</project>
